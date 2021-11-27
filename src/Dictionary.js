@@ -3,7 +3,7 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 
-export default function Dictionary() {
+export default function Dictionary(props) {
   const [keyword, setKeyword] = useState("");
   const [results, setResults] = useState("");
 

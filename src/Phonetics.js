@@ -1,11 +1,11 @@
 import React from "react";
 import ReactAudioPlayer from "react-audio-player";
-import "./results.css";
+import "./Phonetics.css";
 
-export default function Phonetic(props) {
+export default function Phonetics(props) {
   console.log(props.phonetic);
   return (
-    <div className="Phonetic">
+    <div className="Phonetics">
       <div className="text">[ {props.phonetic.text} ]</div>
 
       <br />

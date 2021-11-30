@@ -1,0 +1,12 @@
+.Meaning h4 {
+  font-weight: bold;
+}
+
+.Meaning .definition {
+  font-size: 18px;
+  margin: 30px 30px 50px;
+}
+.Meaning em {
+  opacity: 0.8;
+  font-size: 16px;
+}

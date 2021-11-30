@@ -1,12 +1,7 @@
-.results .player {
-  width: 25%;
-}
-
 .results section {
   font-size: 16px;
   padding: 10px;
   margin: 10px 100px 10px;
-  background-color: rgb(122, 111, 113);
 }
 
 .results h2 {

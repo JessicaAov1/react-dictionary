@@ -4,4 +4,10 @@
 .Dictionary .hint {
   font-size: 14px;
   opacity: 0.9;
+  padding-top: 5px;
+}
+.Dictionary h1 {
+  font-size: 18px;
+  line-height: 1.2;
+  padding: 30px 10px;
 }

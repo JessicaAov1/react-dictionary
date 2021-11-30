@@ -1,0 +1,8 @@
+.Phonetics .player {
+  width: 25%;
+}
+.Phonetics .text {
+  font-weight: bold;
+  font-size: 24px;
+  opacity: 0.8;
+}

@@ -13,8 +13,8 @@ export default function Phonetic(props) {
       <ReactAudioPlayer
         className="player"
         src={props.phonetic.audio}
-        autoPlay
         controls
+        onPlay
       />
     </div>
   );

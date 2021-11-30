@@ -1,0 +1,7 @@
+.Dictionary section {
+  margin-bottom: 30px;
+}
+.Dictionary .hint {
+  font-size: 14px;
+  opacity: 0.9;
+}

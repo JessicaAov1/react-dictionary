@@ -1,6 +1,17 @@
-.player {
-  width: 20%;
+.results .player {
+  width: 25%;
 }
-.text {
-  font-size: 25px;
+
+.results section {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 100px 10px;
+  background-color: rgb(122, 111, 113);
+}
+
+.results h2 {
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.8;
 }

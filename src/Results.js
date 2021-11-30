@@ -12,15 +12,19 @@ export default function Results(props) {
         {props.results.phonetics.map(function (phonetic, index) {
           return (
             <div key={index}>
-              <Phonetic phonetic={phonetic} />
+              <section>
+                <Phonetic phonetic={phonetic} />
+              </section>
             </div>
           );
         })}
 
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
-              <Meaning meaning={meaning} />
+            <div className="Meaning" key={index}>
+              <section>
+                <Meaning meaning={meaning} />
+              </section>
             </div>
           );
         })}

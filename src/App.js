@@ -3,13 +3,13 @@ import Dictionary from "./Dictionary";
 
 function App() {
   return (
-    <div cla="container">
+    <div className="container">
       <div className="App">
         <header className="App-header">
           <h1> Dictionary </h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="willpower" />
         </main>
       </div>
       <footer className="App-footer">

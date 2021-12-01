@@ -1,5 +1,6 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import "./Pictures.css";
 
 function App() {
   return (
@@ -9,9 +10,10 @@ function App() {
           <h1> Dictionary </h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="willpower" />
+          <Dictionary defaultKeyword="sailing" />
         </main>
       </div>
+
       <footer className="App-footer">
         <em> Open-source code by </em>
         <a

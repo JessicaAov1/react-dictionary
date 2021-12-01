@@ -2,7 +2,7 @@
   list-style: none;
   display: inline-block;
   font-size: 14px;
-  margin: 5px 5px 10px;
+  margin: 5px 5px 10px 5px;
   padding: 8px;
   line-height: 1;
   border: 1px solid white;
@@ -10,4 +10,7 @@
   background-color: rgb(194, 192, 192);
   color: #333841;
   font-weight: bold;
+}
+.Synonyms .Synonyms {
+  margin-bottom: 0px;
 }

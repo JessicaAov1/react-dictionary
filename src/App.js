@@ -10,7 +10,7 @@ function App() {
           <h1> Dictionary </h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="sailing" />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
       </div>
 

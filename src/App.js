@@ -15,16 +15,16 @@ function App() {
       </div>
 
       <footer className="App-footer">
-        <em> Open-source code by </em>
         <a
           href="https://github.com/JessicaAov1/react-dictionary"
           className="link-Git"
           target="_blank"
           rel="noreferrer"
         >
-          Jessica Aronov
+          {" "}
+          <em> Open-source code </em>
         </a>
-        and hosted by Netlify
+        by Jessica Aronov and hosted by Netlify
       </footer>
     </div>
   );
